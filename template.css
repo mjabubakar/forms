@@ -1,0 +1,217 @@
+.nav {
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    top: 0px;
+    left: 0;
+    background: #2b386f;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    position: relative;
+    overflow-y: hidden;
+    top: 105px;
+}
+
+.heading {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: rgba(0, 0, 0, 0.7);
+    height: 44px;
+}
+
+.text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(0, 0, 0, 0.5);
+    width: 471px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.form {
+    width: 600px;
+    height: 602px;
+    background: rgba(196, 196, 196, 0.5);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.form input, select, .select {
+    width: 502px;
+    height: 48px;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-bottom: 35px;
+}
+
+.password {
+    width: 522px;
+    background-color: white;
+    height: 48px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.password input {
+    width: 85%;
+    height: 95%;
+}
+
+.select {
+    width: 522px;
+    padding-left: 0;
+}
+
+select:focus {
+    outline: none;
+}
+
+option {
+    width: 50%;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.have-an-acc {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: left;
+    width: 502px;
+    height: 48px;
+}
+
+.btn {
+    width: 502px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+button {
+    height: 48px;
+    background: #2b386f;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #fdfdfd;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+}
+
+button:focus {
+    outline: none;
+}
+
+.terms {
+    width: 504px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+
+.svg {
+    position: absolute;
+    width: 300px;
+    height: 207.4px;
+    left: 75%;
+    bottom: 20px;
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+}
+
+.referal {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2b386f;
+    width: 70%;
+}
+
+@media(max-width: 600px) {
+    .form {
+        width: 100%;
+    }
+    .password.p input, .password input {
+        width: 80%;
+    }
+    .heading {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    input {
+        width: 90%;
+    }
+    .have-an-acc, .btn, .terms, .password, .text, .heading, .radio, .label, .select {
+        width: 90%;
+    }
+    .text {
+        width: 90%;
+    }
+    .input.two {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .input.two input {
+        width: 45%;
+    }
+    .btn button {
+        font-size: 1em;
+        width: 120px;
+    }
+    .radio .item {
+        width: 30%;
+    }
+    .select select {
+        width: 30%;
+    }
+}
+
+@media(max-width: 850px) {
+    .svg {
+        display: none;
+    }
+}

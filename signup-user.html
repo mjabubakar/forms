@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="stylesheet" href="./template.css" />
+		<style>
+			.text {
+				width: 658px;
+			}
+
+			.input.two {
+				display: flex;
+				flex-direction: row;
+			}
+
+			.input.two input {
+				width: 229px;
+			}
+
+			.i {
+				margin-right: 20px;
+			}
+
+			.select {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			.select select {
+				width: 160px;
+				padding-right: 10px;
+				background-color: white;
+			}
+
+			.label {
+				width: 522px;
+				height: 17px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 17px;
+				margin-bottom: 10px;
+				color: rgba(0, 0, 0, 0.7);
+			}
+
+			.radio {
+				display: flex;
+				flex-direction: row;
+				width: 522px;
+				margin-bottom: 15px;
+			}
+
+			.radio .item {
+				background-color: white;
+				margin-right: 20px;
+				border-radius: 10px;
+				padding-left: 20px;
+				font-family: Montserrat;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 18px;
+				line-height: 22px;
+				color: rgba(0, 0, 0, 0.5);
+				border: none;
+				width: 150px;
+				height: 48px;
+				display: flex;
+				flex-direction: row;
+				/* align-items: center; */
+			}
+
+			.item div {
+				width: 90px;
+				/* flex: 1; */
+				margin-top: 9%;
+			}
+
+			.radio input {
+				width: 12px;
+			}
+
+			.male {
+				width: 30px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav"></div>
+		<div class="container">
+			<div>
+				<img src="./public/png 4.svg" />
+			</div>
+
+			<div class="heading">Sign up with Farm DnD</div>
+			<div class="text">Activate Massive Saving, Earning and Passive income</div>
+			<div class="form">
+				<div class="input two">
+					<input placeholder="First name" class="i" type="text" />
+					<input placeholder="Last name" type="text" />
+				</div>
+				<div class="password"><input placeholder="Phone number or email address" /></div>
+				<div class="password p">
+					<input placeholder="New password" type="password" />
+					<img src="./public/feather_eye.svg" alt="password_icon" />
+				</div>
+				<div class="label">Date of birth</div>
+				<div class="select">
+					<select>
+						<option>20</option>
+					</select>
+
+					<select>
+						<option>Nov</option>
+					</select>
+
+					<select>
+						<option>2020</option>
+					</select>
+				</div>
+
+				<div class="label">Gender</div>
+
+				<div class="radio">
+					<div class="item">
+						<div>Male</div>
+						<input type="radio" id="" />
+					</div>
+					<div class="item">
+						<div>Female</div>
+						<input type="radio" id="" />
+					</div>
+				</div>
+
+				<div class="have-an-acc">
+					<div>Have an account? Log In</div>
+				</div>
+				<div class="btn">
+					<div class="referal">Got referal code?</div>
+					<div><button>Sign Up</button></div>
+				</div>
+
+				<div class="terms">
+					<div>
+						By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS
+						notifications from us and can opt out at any time
+					</div>
+				</div>
+			</div>
+			<div class="svg"><img src="./public/undraw_welcoming_xvuq 2.svg" /></div>
+		</div>
+	</body>
+</html>
